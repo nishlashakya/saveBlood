@@ -1,14 +1,14 @@
-invoice_no,blood_type,collected_date,expiry_date,hospital_name,patient_name,purpose
-101,Fresh,9/28/2019,9/28/2019,Alka Hospital,Nishla Shakya,Operation
-102,Whole,9/26/2019,10/30/2019,Nervic Hospital,Ram Khadka,Leg Fractured
-103,Plasma,9/18/2019,3/18/2020,Teaching Hospital,Kanchan Poudel,Kawasaki Disease
-104,Platelets,9/27/2019,9/30/2019,Bir Hospital,Sushmita Rai,Platelet Transfusion
-105,Platelets,9/28/2019,10/1/2019,Kantipur Dental Hospital,Shristi Dumre,leukemia
-106,Plasma,9/29/2019,3/29/2020,Grande Hospital,Rabina Khatiwada,Treatment of Trauma
-107,Fresh,9/26/2019,9/26/2019,Thapathali Maternity Hospital,Krishna Kandel,Surgery
-108,Whole,8/23/2019,9/28/2019,OM Hospital,Durga Rizal,Massive Bleeding
-109,Whole,6/19/2019,7/23/2019,Mediciti Hospital,Kamal Thapa,Lung injury
-110,Plasma,7/27/2019,1/27/2020,Green City Hospital,Santosh Karki,Hemophilia A
+invoice_no,blood_type,collected_date,expiry_date,hospital_name,patient_name,purpose,blood_group
+101,Fresh,9/28/2019,9/28/2019,Alka Hospital,Nishla Shakya,Operation,A-
+102,Whole,9/26/2019,10/30/2019,Nervic Hospital,Ram Khadka,Leg Fractured,O+
+103,Plasma,9/18/2019,3/18/2020,Teaching Hospital,Kanchan Poudel,Kawasaki Disease,B+
+104,Platelets,9/27/2019,9/30/2019,Bir Hospital,Sushmita Rai,Platelet Transfusion,A+
+105,Platelets,9/28/2019,10/1/2019,Kantipur Dental Hospital,Shristi Dumre,leukemia,AB+
+106,Plasma,9/29/2019,3/29/2020,Grande Hospital,Rabina Khatiwada,Treatment of Trauma,AB-
+107,Fresh,9/26/2019,9/26/2019,Thapathali Maternity Hospital,Krishna Kandel,Surgery,O-
+108,Whole,8/23/2019,9/28/2019,OM Hospital,Durga Rizal,Massive Bleeding,B-
+109,Whole,6/19/2019,7/23/2019,Mediciti Hospital,Kamal Thapa,Lung injury,O+
+110,Plasma,7/27/2019,1/27/2020,Green City Hospital,Santosh Karki,Hemophilia A,A+
 ,,,,,,"
 
-"
+",
