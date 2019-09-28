@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 
 <head>
@@ -8,6 +8,175 @@
 
 <body>
     <h1><%= bloodDetail.patient_name %></h1>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Information dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/util.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+
+</head>
+
+<body>
+
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100">
+                <div class="col-md-12">
+                    <img src="images/logo.png" style="display: block;
+							margin-left: auto;
+							margin-right: auto;
+							">
+                </div>
+                <form>
+
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-3 col-form-label">Id: <%= bloodDetail.invoice_no %></label>
+                    </div>
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-3 col-form-label">Blood Type: <%= bloodDetail.blood_type %> </label>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-3 col-form-label">Collected Date: <%= bloodDetail.collected_date %></label>
+                    </div>
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-3 col-form-label">Expiry Date: <%= bloodDetail.expiry_date %></label>
+                    </div>
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-3 col-form-label">Blood Group: <%= bloodDetail.blood_group %></label>
+                    </div>
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-3 col-form-label">Hospital's Name: <%= bloodDetail.hospital_name %></label>
+                    </div>
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-3 col-form-label">Patient's Name: <%= bloodDetail.patient_name %> </label>
+                    </div>
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-3 col-form-label">Purpose: <%= bloodDetail.purpose %></label>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="container">
+                            <div class="col-md-12">
+
+                                <h3 style="padding:20px">Fresh Blood:</h3>
+                                <p>The blood supplies oxygen to cells and tissues providing essential nutrients to
+                                    cells.</p>
+                                <ul>
+                                    <li><strong>Color:</strong>Red</li>
+                                    <li><strong>Shelf Life:</strong> Should be used within 6 hours</li>
+                                    <li><strong>Storage Conditions: </strong>Refrigerated</li>
+                                    <li><strong>Key Uses:</strong>: Trauma, Surgery</li>
+                                </ul>
+
+                                <ul>
+                                    <li>They help in removing waste such as carbon dioxide, urea, and lactic acid.</li>
+                                    <li>It regulates pH, temperature, water content of cells.</li>
+                                    <li>Protects against blood loss through clotting.</li>
+                                </ul>
+
+
+                                <h3 style="padding:20px">White Blood Cells:</h3>
+                                <p>White blood cells, or leukocytes, are one of the body's defense against disease.some
+                                    destroy bacteria and others create antibodies against bacteria and viruses or fight
+                                    malignant disease.</p>
+                                <ul>
+                                    <li><strong>Color:</strong>Colourless</li>
+                                    <li><strong>Shelf Life:</strong> Should be used within 24 hours</li>
+                                    <li><strong>Storage Conditions: </strong>Refrigerated</li>
+                                    <li><strong>Key Uses:</strong>: Trauma, Surgery</li>
+                                </ul>
+
+                                <ul>
+                                    <li>They are an important part of the immune system.</li>
+                                    <li>These cells help fight infections by attacking bacteria, viruses, and germs that
+                                        invade the body</li>
+                                    <li>They are originated in the bone marrow but circulate throughout the bloodstream.
+                                    </li>
+                                </ul>
+
+
+
+
+
+                                <h3 style="padding:20px">Red Blood cells :</h3>
+                                <p>Red blood cells are prepared from whole blood by removing the plasma (the liquid
+                                    portion of the blood).</p>
+                                <ul>
+                                    <li><strong>Color:</strong>Red</li>
+                                    <li><strong>Shelf Life:</strong>Up to 42 days*</li>
+                                    <li><strong>Storage Conditions: </strong>Refrigerated</li>
+                                    <li><strong>Key Uses:</strong>: Trauma, Surgery, Anemia, Any blood loss, Blood
+                                        disorders, such as sickle cell.
+
+                                </ul>
+
+                                <ul>
+                                    <li>RBCs are used to treat anemia without substantially increasing the patient’s
+                                        blood volume.</li>
+                                    <li>Leukocyte-reduced RBCs are prepared by removing leukocytes (white blood cells)
+                                        by filtration shortly after donation.</li>
+                                    <li>Patients who benefit most from transfusion of red blood cells include those with
+                                        chronic anemia resulting from kidney failure or gastrointestinal bleeding, and
+                                        those with acute blood loss resulting from trauma.</li>
+                                </ul>
+
+
+                                <!-- <div class="col-md-6"> -->
+                                <h3 style="padding:20px">Whole Blood :</h3>
+                                <p>Whole blood contains red cells, white cells, and platelets (~45% of volume) suspended
+                                    in blood plasma (~55% of volume).</p>
+                                <ul>
+                                    <li><strong>Color:</strong>Red</li>
+                                    <li><strong>Shelf Life:</strong> 21/35 days*</li>
+                                    <li><strong>Storage Conditions: </strong>Refrigerated</li>
+                                    <li><strong>Key Uses:</strong>: Trauma, Surgery</li>
+                                </ul>
+
+                                <ul>
+                                    <li>It is the Simplest, most common type of blood donation.</li>
+                                    <li>It is the most flexible because it can be transfused in its original form.</li>
+                                    <li>It can be refrigerated for up to 35 days.</li>
+                                </ul>
+
+
+                                <h3 style="padding:20px">Plasma :</h3>
+                                <p>Plasma contains about 7% vital proteins such as albumin, gamma globulin and
+                                    anti-hemophilic factor, and 1% mineral salts, sugars, fats, hormones and vitamins,
+                                    about 92% water.</p>
+                                <ul>
+                                    <li><strong>Color:</strong>Yellowish</li>
+                                    <li><strong>Shelf Life:</strong> 1 Year</li>
+                                    <li><strong>Storage Conditions: </strong>Frozen</li>
+                                    <li><strong>Key Uses:</strong>: Burn patients, Shock, Bleeding disorders
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>Plasma is obtained by separating the liquid portion of blood from the cells.
+                                    </li>
+                                    <li>Plasma is frozen within 24 hours of being donated in order to preserve the
+                                        valuable clotting factors.</li>
+                                    <li>Plasma is commonly transfused to trauma, burn and shock patients, as well as
+                                        people with severe liver disease or multiple clotting factor deficiencies.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

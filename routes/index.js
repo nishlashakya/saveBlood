@@ -12,7 +12,7 @@ router.post('/view-information', function(req, res) {
   console.log('searching,,,,,,,,,', req.body.invoice_code)
 
   
-  Blood_db.findOne({ invoice_no: parseInt(req.body.invoice_code) }, function (err, bloodDetail) {
+  Blood_db.findOne({ invoice_no: req.body.invoice_code }, function (err, bloodDetail) {
     console.log('searched...........', bloodDetail);
     res.render('view-information', {bloodDetail});
 

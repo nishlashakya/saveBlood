@@ -1,17 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+	<head>
+		<title><%= title %></title>
+		<link rel='stylesheet' href='/stylesheets/style.css' />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/util.css">
+	</head>
+	<body>
+		<!-- <h1><%= title %></h1> -->
+		<!-- <p>Welcome to <%= title %></p> -->
 
-    <form method="post" action="/view-information">
-      <input type="text" name="invoice_code" placeholder="Invoice code" /><br />
-      <br />
-      <button type="submit">View Information</button>
-    </form>
-  </body>
+		<!-- <form method="post" action="/view-information">
+			<input type="text" name="invoice_code" placeholder="Invoice code" /><br />
+			<br />
+			<button type="submit">View Information</button>
+		</form> -->
+
+
+		<div class="limiter">
+			<div class="container-login100">
+				<div class="wrap-login100">
+					<form class="login100-form validate-form" method="post" action="/view-information">
+						<span class="login100-form-title p-b-26">
+							<img src="images/logo.png">
+						</span>
+						<div class="wrap-input100 validate-input">
+							<input class="input100" type="number" name="invoice_code">
+							<span class="focus-input100" data-placeholder="Enter invoice number"></span>
+						</div>
+						<div class="container-login100-form-btn">
+							<div class="wrap-login100-form-btn">
+								<div class="login100-form-bgbtn"></div>
+								<button class="login100-form-btn" type='submit'>
+									View information
+								</button>
+							</div>
+						</div>
+						<div class="text-center p-t-115">
+							<span class="txt1">
+								Developed for Algorithm is female
+							</span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
