@@ -12,9 +12,8 @@ var app = express();
 
 var passwords = require('./password')
 // connect database
-// mongoose.connect('mongodb://localhost/save_blood')
 mongoose.connect(`mongodb://db_user:${passwords.MONGO_PASSWORD}@ds253094.mlab.com:53094/save_blood`)
-// var db = mongoose.collection;
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
